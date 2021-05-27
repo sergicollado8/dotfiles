@@ -28,3 +28,17 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
 alias up='dot package update_all'
+
+# Docker
+alias dcu='docker-compose up -d'
+alias dcs='docker-compose stop'
+alias dcc='dot docker connect'
+
+alias home='cd $HOME'
+alias ccode='cd $HOME/Code/';
+
+# iSalud
+alias cdoctori='cd $HOME/Code/Doctori/';
+
+alias dcu-ramos='cd $HOME/Code/Doctori/ramos-docker; docker-compose up -d; cd -;'
+alias dcs-ramos='cd $HOME/Code/Doctori/ramos-docker; docker-compose stop; cd -;'
