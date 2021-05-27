@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Open rofi window with combi search
+#?? 1.0.0
+##?
+##? Requirements:
+##?     rofi
+##?
+##? Usage:
+##?   show_rofi
+docs::parse "$@"
+
+rofi -show combi -normal-window
