@@ -5,5 +5,11 @@
       create: true
       force: true
 
+
+- create:
+    - ~/.config/rofi
+
 - link:
     ~/.dotly: os/linux/.dotly
+    ~/.config/rofi/config.rasi: os/linux/rofi/config.rasi
+    ~/.config/rofi/sergi-theme.rasi: os/linux/rofi/sergi-theme.rasi

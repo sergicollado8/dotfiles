@@ -14,7 +14,6 @@ configuration {
     display-window:  "";
     display-combi:   "";
     show-icons: true;
-    normal-window: true;
 }
 
 @import "sergi-theme.rasi"
