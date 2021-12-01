@@ -1,4 +1,4 @@
-export JAVA_HOME='/Library/Java/JavaVirtualMachines/amazon-corretto-15.jdk/Contents/Home'
+export JAVA_HOME='/usr/lib/jvm/java-16-openjdk-amd64'
 export GEM_HOME="$HOME/.gem"
 export GOPATH="$HOME/.go"
 
