@@ -14,7 +14,7 @@ alias gc='$DOTLY_PATH/bin/dot git commit'
 alias gca="git add --all && git commit --amend --no-edit"
 alias gco="git checkout"
 alias gd='$DOTLY_PATH/bin/dot git pretty-diff'
-alias gs="git status -sb"
+alias gst="git status -sb"
 alias gf="git fetch --all -p"
 alias gps="git push"
 alias gpsf="git push --force"
@@ -22,9 +22,20 @@ alias gpl="git pull --rebase --autostash"
 alias gb="git branch"
 alias gl='$DOTLY_PATH/bin/dot git pretty-log'
 
+# Git clone
+alias gclg="clone_git_repo_github"
+
 # Utils
 alias k='kill -9'
 alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
 alias up='dot package update_all'
+
+# Docker
+alias dcu='docker-compose up -d'
+alias dcs='docker-compose stop'
+alias dcc='dot docker connect'
+
+alias home='cd $HOME'
+alias ccode='cd $HOME/Code/';

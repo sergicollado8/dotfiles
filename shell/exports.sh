@@ -24,6 +24,10 @@ fi
 
 export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 
+
+export RUNNER_WORKSPACE="/Users/sergi/Code/emobility-mobility-service-backend"
+
+
 # ------------------------------------------------------------------------------
 # Path - The higher it is, the more priority it has
 # ------------------------------------------------------------------------------
